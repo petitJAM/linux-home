@@ -1,0 +1,7 @@
+# IGNORE IT ALL
+*
+
+# Oh wait, except this stuff...
+!*.bashrc
+!*.vim
+!.gitignore
