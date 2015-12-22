@@ -117,10 +117,15 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 # Custom aliases
 alias sl='ls'
+alias cd..='cd ..'
 alias xclip='xclip -selection c'
+
+alias gst='git status'
 alias gitst='git status'
+alias gd='git diff'
 
 alias gibbi='gem install bundler && bundle install && alert "bundle install complete" || alert "Something went wrong!"'
+alias railss='rails s'
 
 alias resrc='source ~/.bashrc'
 
