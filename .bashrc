@@ -123,11 +123,22 @@ alias xclip='xclip -selection c'
 alias gst='git status'
 alias gitst='git status'
 alias gd='git diff'
+alias gbr='git branch'
 
 alias gibbi='gem install bundler && bundle install && alert "bundle install complete" || alert "Something went wrong!"'
 alias railss='rails s'
 
 alias resrc='source ~/.bashrc'
+
+alias realrake=rake
+binrake() {
+  if [ -f ./bin/rake ]; then
+    bin/rake "$@"
+  else
+    rake "$@"
+  fi
+}
+alias rake=binrake
 
 eval "$(thefuck --alias FUCK)"
 eval "$(thefuck --alias fuck)"

@@ -5,4 +5,5 @@
 !*.bashrc
 !*.vim
 !.gitignore
+!.gitignore_global
 !README.md
