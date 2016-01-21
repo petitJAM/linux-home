@@ -124,11 +124,17 @@ alias gst='git status'
 alias gitst='git status'
 alias gd='git diff'
 alias gbr='git branch'
+alias gg='git log --oneline --all --abbrev-commit --graph --decorate --color'
 
 alias gibbi='gem install bundler && bundle install && alert "bundle install complete" || alert "Something went wrong!"'
 alias railss='rails s'
 
 alias resrc='source ~/.bashrc'
+
+alias prettyjson='python -m json.tool'
+
+# alias realrspec='rspec'
+# alias rspec='rspec && alert "Testing complete"'
 
 alias realrake=rake
 binrake() {
@@ -148,6 +154,8 @@ export PS1='\[\e[0;34m\]\W$(__git_ps1 " \[\e[0;36m\]-> \[\e[0;32m\]%s\[\e[m\]")\
 #export PS1='\[\033]0;\w\007\]┌─[\[\033[01;32m\]\u\[\033[00m\]][\[\e[0;32m\]\h\[\e[0m\]][\[\e[0;36m\]\w\[\e[0m\]]\n└─▪'
 
 export PATH="$PATH:$HOME/bin" # Add bin dir for custom commands
+
+export PATH="$PATH:/opt/tenforward"
 
 export SECRET_KEY_BASE="48d0d06daf0fa1bbfac24be82adb5a495289941004e4b675fe86edad45374dac257a76881f0d05518b02575e1d0ff486670bd7f8d6b552ec979e36933d444cb8"
 
