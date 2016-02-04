@@ -115,6 +115,12 @@ fi
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
+# Last space is important; it tells bash to keep looking for aliases in what follows
+alias sudo='sudo '
+
+alias resrc='source ~/.bashrc'
+alias quit='exit'
+
 # Custom aliases
 alias sl='ls'
 alias cd..='cd ..'
@@ -123,39 +129,27 @@ alias xclip='xclip -selection c'
 alias gst='git status'
 alias gitst='git status'
 alias gd='git diff'
+alias gdst='git diff --staged'
 alias gbr='git branch'
+alias gl='git log'
 alias gg='git log --oneline --all --abbrev-commit --graph --decorate --color'
 
 alias gibbi='gem install bundler && bundle install && alert "bundle install complete" || alert "Something went wrong!"'
 alias railss='rails s'
 
-alias resrc='source ~/.bashrc'
-
 alias prettyjson='python -m json.tool'
 
-# alias realrspec='rspec'
-# alias rspec='rspec && alert "Testing complete"'
-
-alias realrake=rake
-binrake() {
-  if [ -f ./bin/rake ]; then
-    bin/rake "$@"
-  else
-    rake "$@"
-  fi
-}
-alias rake=binrake
-
-eval "$(thefuck --alias FUCK)"
-eval "$(thefuck --alias fuck)"
+alias devchromium1="chromium-browser --disable-web-security --user-data-dir=\"/home/alex/.chrome-dev-data/1\" &"
+alias devchromium2="chromium-browser --disable-web-security --user-data-dir=\"/home/alex/.chrome-dev-data/2\" &"
+alias devchromium="devchromium1"
 
 export PS1='\[\e[0;34m\]\W$(__git_ps1 " \[\e[0;36m\]-> \[\e[0;32m\]%s\[\e[m\]")\[\e[0;33m\]$\[\e[m\] '
 
 #export PS1='\[\033]0;\w\007\]┌─[\[\033[01;32m\]\u\[\033[00m\]][\[\e[0;32m\]\h\[\e[0m\]][\[\e[0;36m\]\w\[\e[0m\]]\n└─▪'
 
 export PATH="$PATH:$HOME/bin" # Add bin dir for custom commands
-
 export PATH="$PATH:/opt/tenforward"
+export PATH="$PATH:$HOME/gradle-2.5/bin"
 
 export SECRET_KEY_BASE="48d0d06daf0fa1bbfac24be82adb5a495289941004e4b675fe86edad45374dac257a76881f0d05518b02575e1d0ff486670bd7f8d6b552ec979e36933d444cb8"
 
@@ -179,3 +173,7 @@ export VP7=$((WIDTH * 3))","$HEIGHT
 export VP8=$((WIDTH * 4))","$ZERO
 export VP9=$((WIDTH * 4))","$HEIGHT
 
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+setxkbmap -option 'caps:ctrl_modifier'
+xcape -e 'Caps_Lock=Escape'
