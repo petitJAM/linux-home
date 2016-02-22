@@ -147,7 +147,6 @@ export PS1='\[\e[0;34m\]\W$(__git_ps1 " \[\e[0;36m\]-> \[\e[0;32m\]%s\[\e[m\]")\
 
 #export PS1='\[\033]0;\w\007\]┌─[\[\033[01;32m\]\u\[\033[00m\]][\[\e[0;32m\]\h\[\e[0m\]][\[\e[0;36m\]\w\[\e[0m\]]\n└─▪'
 
-export PATH="$PATH:$HOME/bin" # Add bin dir for custom commands
 export PATH="$PATH:/opt/tenforward"
 export PATH="$PATH:$HOME/gradle-2.5/bin"
 
@@ -174,6 +173,8 @@ export VP8=$((WIDTH * 4))","$ZERO
 export VP9=$((WIDTH * 4))","$HEIGHT
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/bin"
 
+# Magic CapsLock = Ctrl/Esc
 setxkbmap -option 'caps:ctrl_modifier'
 xcape -e 'Caps_Lock=Escape'
