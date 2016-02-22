@@ -1,0 +1,16 @@
+{
+  "word_separators": "./\\()\"'-:,.;<>~#%^&*|+=[]{}`~",
+  "PersistentRegexHighlight": {
+      "regex":[
+          {
+            "pattern": "console.log",
+            "color_scope": "highlight.color.orange",
+            "ignore_case": true
+          }
+        ],
+
+      "enabled": true,
+      "on_load": true,
+      "on_modify": true,
+    }
+}

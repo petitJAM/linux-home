@@ -6,4 +6,15 @@
 !*.vim
 !.gitignore
 !.gitignore_global
+
+!.linux-configs
+!.linux-configs/*
+
+# This is really dumb, but that's how it works...
+!.config
+!.config/sublime-text-3
+!.config/sublime-text-3/Packages
+!.config/sublime-text-3/Packages/User
+!.config/sublime-text-3/Packages/User/*.sublime-settings
+
 !README.md
