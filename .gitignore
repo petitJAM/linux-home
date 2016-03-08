@@ -3,6 +3,7 @@
 
 # Oh wait, except this stuff...
 !*.bashrc
+!*.bash_profile
 !*.vim
 !.gitignore
 !.gitignore_global

@@ -29,7 +29,6 @@
 	[
 		".git",
 		"log",
-    // "app/assets/javascripts/admin_ui",
 		"tmp/"
 	],
 	"font_size": 10,

@@ -150,7 +150,7 @@ export PS1='\[\e[0;34m\]\W$(__git_ps1 " \[\e[0;36m\]-> \[\e[0;32m\]%s\[\e[m\]")\
 export PATH="$PATH:/opt/tenforward"
 export PATH="$PATH:$HOME/gradle-2.5/bin"
 
-export SECRET_KEY_BASE="48d0d06daf0fa1bbfac24be82adb5a495289941004e4b675fe86edad45374dac257a76881f0d05518b02575e1d0ff486670bd7f8d6b552ec979e36933d444cb8"
+# export SECRET_KEY_BASE="48d0d06daf0fa1bbfac24be82adb5a495289941004e4b675fe86edad45374dac257a76881f0d05518b02575e1d0ff486670bd7f8d6b552ec979e36933d444cb8"
 
 # Export some vars for easy use of wmctrl w/ compiz
 
@@ -175,6 +175,5 @@ export VP9=$((WIDTH * 4))","$HEIGHT
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="$PATH:$HOME/bin"
 
-# Magic CapsLock = Ctrl/Esc
-setxkbmap -option 'caps:ctrl_modifier'
-xcape -e 'Caps_Lock=Escape'
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
