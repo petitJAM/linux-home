@@ -2,9 +2,10 @@
 *
 
 # Oh wait, except this stuff...
-!*.bashrc
-!*.bash_profile
-!*.vim
+!.bashrc
+!.bash_profile
+!.tmux.conf
+!.vim
 !.gitignore
 !.gitignore_global
 
