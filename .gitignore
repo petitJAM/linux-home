@@ -4,6 +4,7 @@
 # Oh wait, except this stuff...
 !.bashrc
 !.bash_profile
+!.inputrc
 !.tmux.conf
 !.vim
 !.gitignore
