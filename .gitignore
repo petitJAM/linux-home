@@ -3,6 +3,7 @@
 
 # Oh wait, except this stuff...
 !.bashrc
+!.bash_aliases
 !.bash_profile
 !.inputrc
 !.tmux.conf

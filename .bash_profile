@@ -3,10 +3,7 @@
 
 export PATH=$PATH:/opt/tenforward
 
-export LESS="-R"
-
-# Magic CapsLock = Ctrl/Esc
-setxkbmap -option 'caps:ctrl_modifier'
-xcape -e 'Caps_Lock=Escape'
+export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
+export LESS=" -R -N"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
