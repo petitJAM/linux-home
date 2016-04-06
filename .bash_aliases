@@ -13,6 +13,7 @@ alias quit='exit'
 alias sl='ls'
 alias cd..='cd ..'
 alias xclip='xclip -selection c'
+alias outin='cd; cd -'
 
 # Git
 alias gst='git status'
@@ -27,7 +28,12 @@ alias gg='git log --oneline --all --abbrev-commit --graph --decorate --color'
 alias gibbi='gem install bundler && bundle install && alert "bundle install complete" || alert "Something went wrong!"'
 alias railss='rails s'
 
+# tmux fixer
+alias fixer='resrc && eval $(ssh-agent) && ssh-add'
+
+# Misc
 alias prettyjson='python -m json.tool'
+alias tmuxa='tmux attach -t'
 
 # Dev
 alias devchromium1="chromium-browser --disable-web-security --user-data-dir=\"/home/alex/.chrome-dev-data/1\" &"

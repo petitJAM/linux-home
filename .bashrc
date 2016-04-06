@@ -100,6 +100,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# Prevents Ctrl-S from hanging terminal
+stty -ixon
+
 export PS1='\[\e[0;34m\]\W$(__git_ps1 " \[\e[0;36m\]-> \[\e[0;32m\]%s\[\e[m\]")\[\e[0;33m\]$\[\e[m\] '
 
 # Needs work, add git stuff
@@ -113,3 +116,10 @@ export PATH="$PATH:$HOME/bin"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# KILL THE COW
+export ANSIBLE_NOCOWS=1
+
+# Android
+export ANDROID_HOME=/home/alex/Android/Sdk
+export PATH=$ANDROID_HOME/tools:$PATH
