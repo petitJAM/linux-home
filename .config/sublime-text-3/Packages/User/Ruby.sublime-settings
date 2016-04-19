@@ -1,39 +1,39 @@
 {
 	"word_separators": "./\\()\"'-,.;<>~#$%^&*|+=[]{}`~",
   "translate_tabs_to_spaces": true,
-  "PersistentRegexHighlight": {
-      "regex":[
-        {
-          "pattern": "console.log",
-          "color_scope": "highlight.color.red",
-          "ignore_case": true
-        },
-        // {
-        //   "pattern": "puts",
-        //   "color_scope": "highlight.color.orange",
-        //   "ignore_case": true
-        // },
-        {
-          "pattern": "binding.pry",
-          "color_scope": "highlight.color.red",
-          "ignore_case": true
-        },
-        {
-            "pattern": "<<<<<<< HEAD",
-            "color_scope": "highlight.color.red",
-        },
-        {
-            "pattern": "=======",
-            "color_scope": "highlight.color.red",
-        },
-        {
-            "pattern": ">>>>>>>",
-            "color_scope": "highlight.color.red",
-        },
-        ],
+  // "PersistentRegexHighlight": {
+  //     "regex":[
+  //       {
+  //         "pattern": "console.log",
+  //         "color_scope": "highlight.color.red",
+  //         "ignore_case": true
+  //       },
+  //       // {
+  //       //   "pattern": "puts",
+  //       //   "color_scope": "highlight.color.orange",
+  //       //   "ignore_case": true
+  //       // },
+  //       {
+  //         "pattern": "binding\\.pry",
+  //         "color_scope": "highlight.color.red",
+  //         "ignore_case": true
+  //       },
+  //       {
+  //           "pattern": "^<<<<<<< HEAD",
+  //           "color_scope": "highlight.color.red",
+  //       },
+  //       {
+  //           "pattern": "^=======",
+  //           "color_scope": "highlight.color.red",
+  //       },
+  //       {
+  //           "pattern": "^>>>>>>>",
+  //           "color_scope": "highlight.color.red",
+  //       },
+  //       ],
 
-      "enabled": true,
-      "on_load": true,
-      "on_modify": true,
-    }
+  //     "enabled": true,
+  //     "on_load": true,
+  //     "on_modify": true,
+  //   }
 }
