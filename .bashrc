@@ -121,5 +121,5 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export ANSIBLE_NOCOWS=1
 
 # Android
-export ANDROID_HOME=/home/alex/Android/Sdk
+export ANDROID_HOME=/home/alex/.android-sdk
 export PATH=$ANDROID_HOME/tools:$PATH

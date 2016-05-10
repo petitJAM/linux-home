@@ -17,12 +17,14 @@ alias outin='cd; cd -'
 
 # Git
 alias gst='git status'
+alias gs='git status'
 alias gitst='git status'
 alias gd='git diff'
 alias gdst='git diff --staged'
 alias gbr='git branch'
 alias gl='git log'
 alias gg='git log --oneline --all --abbrev-commit --graph --decorate --color'
+alias grpo='git remote prune origin'
 
 # Rails
 alias gibbi='gem install bundler && bundle install && alert "bundle install complete" || alert "Something went wrong!"'
