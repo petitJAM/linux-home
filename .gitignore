@@ -21,4 +21,8 @@
 !.config/sublime-text-3/Packages/User
 !.config/sublime-text-3/Packages/User/*.sublime-settings
 
+!.AndroidStudio2.1
+!.AndroidStudio2.1/config/
+!.AndroidStudio2.1/config/settings.jar
+
 !README.md

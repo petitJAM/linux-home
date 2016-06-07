@@ -25,10 +25,15 @@ alias gbr='git branch'
 alias gl='git log'
 alias gg='git log --oneline --all --abbrev-commit --graph --decorate --color'
 alias grpo='git remote prune origin'
+alias gaa='git add --a'
 
 # Rails
 alias gibbi='gem install bundler && bundle install && alert "bundle install complete" || alert "Something went wrong!"'
 alias railss='rails s'
+alias berrl='bundle exec rake routes | less'
+
+# Android
+alias adbks='adb kill-server; sudo adb start-server; adb devices'
 
 # tmux fixer
 alias fixer='resrc && eval $(ssh-agent) && ssh-add'
