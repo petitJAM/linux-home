@@ -31,6 +31,7 @@ alias gaa='git add --a'
 alias gibbi='gem install bundler && bundle install && alert "bundle install complete" || alert "Something went wrong!"'
 alias railss='rails s'
 alias berrl='bundle exec rake routes | less'
+alias berc='bundle exec rails console'
 
 # Android
 alias adbks='adb kill-server; sudo adb start-server; adb devices'

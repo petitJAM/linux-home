@@ -25,4 +25,7 @@
 !.AndroidStudio2.1/config/
 !.AndroidStudio2.1/config/settings.jar
 
+!screen-records/
+!screen-records/gifify.sh
+
 !README.md
