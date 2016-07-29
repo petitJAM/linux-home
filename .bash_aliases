@@ -21,20 +21,24 @@ alias gs='git status'
 alias gitst='git status'
 alias gd='git diff'
 alias gdst='git diff --staged'
+alias gds='git diff --stat'
 alias gbr='git branch'
 alias gl='git log'
 alias gg='git log --oneline --all --abbrev-commit --graph --decorate --color'
 alias grpo='git remote prune origin'
 alias gaa='git add --a'
+alias gfmm='git fetch; git merge --ff-only master origin/master'
 
 # Rails
 alias gibbi='gem install bundler && bundle install && alert "bundle install complete" || alert "Something went wrong!"'
 alias railss='rails s'
 alias berrl='bundle exec rake routes | less'
 alias berc='bundle exec rails console'
+alias bex='bundle exec '
 
 # Android
 alias adbks='adb kill-server; sudo adb start-server; adb devices'
+alias adbstack='adb shell dumpsys activity | less -p "ACTIVITY MANAGER ACTIVITIES"'
 
 # tmux fixer
 alias fixer='resrc && eval $(ssh-agent) && ssh-add'
