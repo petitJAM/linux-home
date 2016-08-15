@@ -103,6 +103,14 @@ fi
 # Prevents Ctrl-S from hanging terminal
 stty -ixon
 
+# https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
+export GIT_PS1_SHOWUPSTREAM='auto'
+export GIT_PS1_SHOWDIRTYSTATE='yes'
+export GIT_PS1_SHOWSTASHSTATE='yes'
+export GIT_PS1_SHOWCOLORHINTS='yes'
+export GIT_PS1_STATESEPARATOR='~'
+export GIT_PS1_SHOWUNTRACKEDFILES='yes'
+
 export PS1='\[\e[0;34m\]\W$(__git_ps1 " \[\e[0;36m\]-> \[\e[0;32m\]%s\[\e[m\]")\[\e[0;33m\]$\[\e[m\] '
 
 # Needs work, add git stuff
