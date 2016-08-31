@@ -1,22 +1,22 @@
 {
   "regex":[
     {
-        "pattern": "^<<<<<<< HEAD",
-        "color_scope": "highlight.color.red",
-    },
-    {
-        "pattern": "^=======",
-        "color_scope": "highlight.color.red",
-    },
-    {
-        "pattern": "^>>>>>>>",
-        "color_scope": "highlight.color.red",
-    },
-    {
-      "pattern": "console\\.log",
+      "pattern": "^<<<<<<< HEAD",
       "color_scope": "highlight.color.red",
-      "ignore_case": true
     },
+    {
+      "pattern": "^=======",
+      "color_scope": "highlight.color.red",
+    },
+    {
+      "pattern": "^>>>>>>>",
+      "color_scope": "highlight.color.red",
+    },
+    // {
+    //   "pattern": "console\\.log",
+    //   "color_scope": "highlight.color.red",
+    //   "ignore_case": true
+    // },
     {
       "pattern": "puts",
       "color_scope": "highlight.color.orange",
