@@ -122,6 +122,8 @@ export PATH="$PATH:$HOME/gradle-2.5/bin"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="$PATH:$HOME/bin"
 
+export PATH="$PATH:/opt/phantomjs/bin"
+
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 

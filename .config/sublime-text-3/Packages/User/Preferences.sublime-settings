@@ -29,8 +29,9 @@
 	[
 		".git",
 		"log",
-		"tmp/",
-		"node_modules"
+		"tmp",
+		"node_modules",
+		"dist"
 	],
 	"font_size": 10,
 	"ignored_packages":

@@ -28,6 +28,7 @@ alias gg='git log --oneline --all --abbrev-commit --graph --decorate --color'
 alias grpo='git remote prune origin'
 alias gaa='git add --a'
 alias gfmm='git fetch; git merge --ff-only master origin/master'
+alias gbdm='git branch --merged master | grep -v "\*" | xargs -n 1 git branch -d'
 
 # Rails
 alias gibbi='gem install bundler && bundle install && alert "bundle install complete" || alert "Something went wrong!"'
@@ -35,6 +36,9 @@ alias railss='rails s'
 alias berrl='bundle exec rake routes | less'
 alias berc='bundle exec rails console'
 alias bex='bundle exec '
+
+# npm
+alias npm-exec='PATH=$(npm bin):$PATH'
 
 # Android
 alias adbks='adb kill-server; sudo adb start-server; adb devices'
