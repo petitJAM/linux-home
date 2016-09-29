@@ -56,6 +56,15 @@ alias devchromium1="chromium-browser --disable-web-security --user-data-dir=\"/h
 alias devchromium2="chromium-browser --disable-web-security --user-data-dir=\"/home/alex/.chrome-dev-data/2\" &"
 alias devchromium="devchromium1"
 
+rvmset() {
+  if [[ -f ".ruby-version" && -f ".ruby-gemset" ]]; then
+    GEMSET="$(cat .ruby-version)@$(cat .ruby-gemset)"
+    echo Running: rvm use $GEMSET
+    rvm use $GEMSET
+  else
+    echo "No .ruby-version or .ruby-gemset files found in current directory"
+  fi
+}
 
 capsctrl() {
   pkill xcape
