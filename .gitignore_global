@@ -1,7 +1,5 @@
 *.sublime-project
 *.sublime-workspace
 
-/public/assets
-
 # Disaster Solutions specific
 make_disasters*.sh

@@ -13,7 +13,6 @@ alias quit='exit'
 alias sl='ls'
 alias cd..='cd ..'
 alias xclip='xclip -selection c'
-alias outin='cd; cd -'
 
 # Git
 alias gst='git status'

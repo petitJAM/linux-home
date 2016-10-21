@@ -18,9 +18,9 @@
     //   "ignore_case": true
     // },
     {
-      "pattern": "puts",
+      "pattern": "^[\\s]*puts",
       "color_scope": "highlight.color.orange",
-      "ignore_case": true
+      "ignore_case": true,
     },
     {
       "pattern": "binding\\.pry",
@@ -32,4 +32,5 @@
   "enabled": true,
   "on_load": true,
   "on_modify": true,
+  "disable_pattern": [],
 }
