@@ -9,5 +9,3 @@ export LESS=" -R"
 export PATH=$PATH:/usr/local/android-studio/bin/
 
 export ANDROID_HVPROTO=ddm
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
