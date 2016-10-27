@@ -29,9 +29,8 @@
 	[
 		".git",
 		"log",
-		"tmp",
-		"node_modules",
-		"dist"
+    "node_modules",
+		"tmp"
 	],
 	"font_size": 10,
 	"ignored_packages":
@@ -41,7 +40,8 @@
 	"index_exclude_patterns":
 	[
 		"*.log",
-		"node_modules/*"
+		"node_modules/*",
+    "dist/*"
 	],
 	"index_files": true,
 	"shift_tab_unindent": true,

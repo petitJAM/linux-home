@@ -100,6 +100,14 @@ if ! shopt -oq posix; then
   fi
 fi
 
+### Fix tmux ssh-agent
+# Probably still have to run fixer once to add the ssh agent, 
+# but after that resrc should catch the existing agent with this thing.
+. ~/scripts/ssh-find-agent/ssh-find-agent.sh
+
+ssh-find-agent -a || eval $(ssh-agent) > /dev/null
+set_ssh_agent_socket
+
 # Prevents Ctrl-S from hanging terminal
 stty -ixon
 
