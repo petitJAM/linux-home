@@ -15,6 +15,7 @@ alias cd..='cd ..'
 alias xclip='xclip -selection c'
 
 # Git
+alias gcm='git checkout master'
 alias gst='git status'
 alias gs='git status'
 alias gitst='git status'
@@ -71,6 +72,9 @@ capsctrl() {
   xcape -e 'Caps_Lock=Escape'
 }
 capsctrl
+
+eval $(thefuck --alias)
+eval $(thefuck --alias ugh)
 
 # Export some vars for easy use of wmctrl w/ compiz
 

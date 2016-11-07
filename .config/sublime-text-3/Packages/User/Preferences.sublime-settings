@@ -29,7 +29,7 @@
 	[
 		".git",
 		"log",
-    "node_modules",
+		"node_modules",
 		"tmp"
 	],
 	"font_size": 10,
@@ -41,7 +41,8 @@
 	[
 		"*.log",
 		"node_modules/*",
-    "dist/*"
+		"dist/*",
+		"vendor"
 	],
 	"index_files": true,
 	"shift_tab_unindent": true,
