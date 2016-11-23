@@ -29,6 +29,7 @@ alias grpo='git remote prune origin'
 alias gaa='git add --a'
 alias gfmm='git fetch; git merge --ff-only master origin/master'
 alias gbdm='git branch --merged master | grep -v "\*" | xargs -n 1 git branch -d'
+alias glb='git cherry -v master'
 
 # Rails
 alias gibbi='gem install bundler && bundle install && alert "bundle install complete" || alert "Something went wrong!"'
@@ -43,9 +44,6 @@ alias npm-exec='PATH=$(npm bin):$PATH'
 # Android
 alias adbks='adb kill-server; sudo adb start-server; adb devices'
 alias adbstack='adb shell dumpsys activity | less -p "ACTIVITY MANAGER ACTIVITIES"'
-
-# tmux fixer
-alias fixer='resrc && eval $(ssh-agent) && ssh-add'
 
 # Misc
 alias prettyjson='python -m json.tool'
