@@ -37,6 +37,8 @@ alias railss='rails s'
 alias berrl='bundle exec rake routes | less'
 alias berc='bundle exec rails console'
 alias bex='bundle exec '
+alias dbreset='rake db:drop && rake db:create && rake db:migrate && rake db:reset'
+alias rdbrm='rake db:rollback && rake db:migrate'
 
 # npm
 alias npm-exec='PATH=$(npm bin):$PATH'

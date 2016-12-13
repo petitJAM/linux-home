@@ -15,7 +15,8 @@
 		"*.jar",
 		"*.zip",
 		"*.pyc",
-		"*.dump"
+		"*.dump",
+		"*.json"
 	],
 	"color_scheme": "Packages/User/SublimeLinter/CustomHighlightMonokai (SL).tmTheme",
 	"detect_indentation": false,
