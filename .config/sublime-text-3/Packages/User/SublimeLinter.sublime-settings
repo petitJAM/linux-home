@@ -30,6 +30,16 @@
 				"excludes":
 				[
 				]
+			},
+			"rubylint":
+			{
+				"@disable": true,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
 			}
 		},
 		"mark_style": "outline",

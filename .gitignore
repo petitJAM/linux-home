@@ -28,4 +28,10 @@
 !screen-records/
 !screen-records/gifify.sh
 
+!scripts/
+!scripts/scrot-shot.sh
+!scripts/ssh-find-agent/
+!scripts/ssh-find-agent/ssh-find-agent.sh
+!scripts/ssh-find-agent/README.md
+
 !README.md
