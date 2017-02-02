@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"ABCSS",
 		"AdvancedNewFile",
 		"Alignment",
 		"Better CoffeeScript",
@@ -34,6 +35,7 @@
 		"Sass",
 		"SideBarEnhancements",
 		"Sort Lines By Selection",
+		"SqlBeautifier",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
