@@ -34,4 +34,7 @@
 !scripts/ssh-find-agent/ssh-find-agent.sh
 !scripts/ssh-find-agent/README.md
 
+!local-projects/
+!local-projects/github-stylish-custom.css
+
 !README.md

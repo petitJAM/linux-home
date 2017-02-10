@@ -1,0 +1,120 @@
+/* BEGIN -  My custom stuff */
+
+.review-thread-reply {
+  border: 0 !important;
+  background: #181818 !important;
+}
+
+.review-thread {
+  border: 1px solid #246 !important;
+}
+
+.add-line-comment {
+  background-color: #4078c0 !important;
+}
+
+.navigation-focus {
+  background-color: #b5b5b5 !important;
+}
+
+.js-navigation-container {
+  border: 0 !important;
+}
+
+.js-navigation-item {
+  border: 1px solid #4f4f4f !important;
+}
+
+.border-right {
+  border-right: 1px solid #4f4f4f !important;
+}
+
+.border-left {
+  border-left: 1px solid #4f4f4f !important;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #4f4f4f !important;
+}
+
+.border-top {
+  border-top: 1px solid #4f4f4f !important;
+}
+
+.bg-gray-light {
+  background-color: #4f4f4f !important;
+}
+
+.scoped-search .form-control.focus
+.header-search-scope {
+  background-color: #B8C8DE !important;
+}
+
+.RecentBranches {
+  background-color: #1B272B !important;
+  border: 2px solid #3B4F57 !important;
+}
+
+.RecentBranches-item {
+  color: #00BFFF !important;
+}
+
+.select-menu-item, a.select-menu-item {
+  background-color: #181818 !important;
+  border: 1px solid #246 !important;
+}
+
+.user-profile-nav {
+  background-color: #181818 !important;
+  border-bottom: 4px solid #246 !important;
+}
+
+.user-profile-sticky-bar.is-stuck {
+  opacity: 0 !important;
+}
+
+.border-gray-dark {
+  border: 1px solid #246 !important;
+}
+
+.profile-timeline-year-list {
+  background-color: transparent !important;
+}
+
+.profile-timeline-month-heading {
+  background-color: #181818 !important;
+  padding-left: 6px !important;
+}
+
+.profile-timeline-card-wrapper, .profile-timeline-card {
+  background-color: #181818 !important;
+  border: 1px solid #246 !important;
+}
+
+.orghead {
+  background-color: transparent !important;
+  border: 0 !important;
+}
+
+.pagehead-tabs-item.selected {
+  border-bottom-color: #343434 !important;
+}
+
+.merge-status-list {
+  border-top: 1px solid #343434 !important;
+}
+
+.merge-status-item {
+  background-color: transparent !important;
+}
+
+.CodeMirror-scroll {
+  background-color: #343434 !important;
+}
+
+.CodeMirror-cursor {
+  border-left: 1px solid white !important;
+  color: #fff !important;
+}
+
+/* END - My custom stuff */

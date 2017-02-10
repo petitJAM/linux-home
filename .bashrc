@@ -111,6 +111,9 @@ set_ssh_agent_socket
 # Prevents Ctrl-S from hanging terminal
 stty -ixon
 
+# Prevent Ctrl-D from exiting shell
+set -o ignoreeof
+
 # https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
 export GIT_PS1_SHOWUPSTREAM='auto'
 export GIT_PS1_SHOWDIRTYSTATE='yes'
