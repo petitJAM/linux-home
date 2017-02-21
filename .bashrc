@@ -127,22 +127,6 @@ export PS1='\[\e[0;34m\]\W$(__git_ps1 " \[\e[0;36m\]-> \[\e[0;32m\]%s\[\e[m\]")\
 # Needs work, add git stuff
 # export PS1='\[\033]0;\w\007\]┌─[\[\033[01;32m\]\u\[\033[00m\]][\[\e[0;32m\]\h\[\e[0m\]][\[\e[0;36m\]\w\[\e[0m\]]\n└─▪ '
 
-# Misc PATH
-export PATH="$PATH:/opt/tenforward"
-export PATH="$PATH:$HOME/bin"
-export PATH="$PATH:/opt/phantomjs/bin"
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-# KILL THE COW
-export ANSIBLE_NOCOWS=1
-
-# Android
-export ANDROID_HOME=/home/alex/.android-sdk
-export PATH="$PATH:$HOME/gradle-2.5/bin"
-export PATH=$ANDROID_HOME/tools:$PATH
-
 # rvm PATH
 # Must be at bottom
 export PATH="$GEM_HOME/bin:$HOME/.rvm/bin:$PATH" # Add RVM to PATH for scripting

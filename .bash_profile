@@ -1,4 +1,3 @@
-
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
 
 export PATH=$PATH:/opt/tenforward
@@ -8,29 +7,21 @@ export LESS=" -R"
 
 export PATH=$PATH:/usr/local/android-studio/bin/
 
+# Android
 export ANDROID_HVPROTO=ddm
+export ANDROID_HOME=/home/alex/.android-sdk
+export PATH="$PATH:$HOME/gradle-2.5/bin"
+export PATH="$ANDROID_HOME/tools:$PATH"
 
-# http://stackoverflow.com/a/18915067
+# Misc PATH
+export PATH="$PATH:$HOME/bin"
+export PATH="$PATH:/opt/phantomjs/bin"
 
-SSH_ENV="$HOME/.ssh/environment"
+### Added by the Heroku Toolbelt (moved here from .bashrc by me)
+export PATH="/usr/local/heroku/bin:$PATH"
 
-function start_agent {
-  echo "Initializing new SSH agent..."
-  /usr/bin/ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
-  echo succeeded
-  chmod 600 "${SSH_ENV}"
-  . "${SSH_ENV}" > /dev/null
-  /usr/bin/ssh-add;
-}
+# KILL THE COW
+export ANSIBLE_NOCOWS=1
 
-# Source SSH settings, if applicable
-
-if [ -f "${SSH_ENV}" ]; then
-  . "${SSH_ENV}" > /dev/null
-  #ps ${SSH_AGENT_PID} doesn't work under cygwin
-  ps -ef | grep ${SSH_AGENT_PID} | grep ssh-agent$ > /dev/null || {
-    start_agent;
-  }
-else
-  start_agent;
-fi
+# Prompt once for passphrase
+eval `keychain --eval id_rsa`

@@ -13,6 +13,7 @@ alias quit='exit'
 alias sl='ls'
 alias cd..='cd ..'
 alias xclip='xclip -selection c'
+alias showpath='echo $PATH | sed s/:/\\n/g'
 
 # Git
 alias gcm='git checkout master'
