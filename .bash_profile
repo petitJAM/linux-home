@@ -24,4 +24,4 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export ANSIBLE_NOCOWS=1
 
 # Prompt once for passphrase
-eval `keychain --eval id_rsa`
+eval `keychain --quiet --eval id_rsa`
