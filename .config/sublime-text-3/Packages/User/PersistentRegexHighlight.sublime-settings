@@ -12,11 +12,6 @@
       "pattern": "^>>>>>>>",
       "color_scope": "highlight.color.red",
     },
-    // {
-    //   "pattern": "console\\.log",
-    //   "color_scope": "highlight.color.red",
-    //   "ignore_case": true
-    // },
     {
       "pattern": "^[\\s]*puts",
       "color_scope": "highlight.color.orange",

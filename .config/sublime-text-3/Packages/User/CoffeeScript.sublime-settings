@@ -1,18 +1,4 @@
 {
-	"PersistentRegexHighlight":
-	{
-		"enabled": true,
-		"on_load": true,
-		"on_modify": true,
-		"regex":
-		[
-			{
-				"color_scope": "highlight.color.orange",
-				"ignore_case": true,
-				"pattern": "console.log"
-			}
-		]
-	},
 	"extensions":
 	[
 		"coffee"
