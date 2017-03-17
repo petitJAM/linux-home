@@ -47,6 +47,17 @@ alias adbstack='adb shell dumpsys activity | less -p "ACTIVITY MANAGER ACTIVITIE
 alias prettyjson='python -m json.tool'
 alias tmuxa='tmux attach -t'
 
+qrify() {
+  if [ -z "$1" ]
+  then
+    echo "URL required"
+  else
+    qrencode -l H '$1' -o /tmp/qr.png && eog /tmp/qr.png
+  fi
+
+  return 0
+}
+
 # Dev
 alias devchromium1="chromium-browser --disable-web-security --user-data-dir=\"/home/alex/.chrome-dev-data/1\" &"
 alias devchromium2="chromium-browser --disable-web-security --user-data-dir=\"/home/alex/.chrome-dev-data/2\" &"
