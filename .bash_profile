@@ -14,7 +14,8 @@ export PATH="$PATH:$HOME/gradle-2.5/bin"
 export PATH="$ANDROID_HOME/tools:$PATH"
 
 # Misc PATH
-export PATH="$PATH:$HOME/bin"
+export PATH="$PATH:$HOME/scripts/"
+# export PATH="$PATH:$HOME/bin"
 export PATH="$PATH:/opt/phantomjs/bin"
 
 ### Added by the Heroku Toolbelt (moved here from .bashrc by me)
